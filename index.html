@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SERVICE AJA - Solusi Service Elektronik</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <div class="logo">
+        <i class="fas fa-tools"></i>
+        <span>SERVICE <span class="highlight">AJA</span></span>
+      </div>
+      <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+      <!-- Nav Links -->
+      <div class="nav-links" id="nav-links">
+        <a href="#hero">Beranda</a>
+        <a href="#services">Layanan</a>
+        <a href="#pricing">Harga</a>
+        <a href="#faq">FAQ</a>
+        <a
+          href="#booking"
+          class="btn-primary"
+          style="padding: 10px 20px; font-size: 0.9rem"
+          >Pesan Sekarang</a
+        >
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="badge">
+          <i class="fas fa-snowflake"></i> Spesialis Elektronik Anda
+        </div>
+        <h1>
+          Solusi Service Elektronik
+          <span style="color: var(--neon-cyan); text-shadow: var(--glow-cyan)"
+            >Profesional</span
+          >
+        </h1>
+        <p>
+          Perawatan dan perbaikan perangkat elektronik agar tetap efisien dan
+          bekerja optimal untuk kebutuhan rumah tangga, industri, maupun
+          komersial Anda.
+        </p>
+
+        <div class="features-grid">
+          <div class="feature-item">
+            <i class="fas fa-user-check"></i>
+            <div><b>Teknisi Profesional</b></div>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-bolt"></i>
+            <div><b>Proses Cepat</b></div>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-certificate"></i>
+            <div><b>100% Bergaransi</b></div>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-headset"></i>
+            <div><b>Pelayanan Ramah</b></div>
+          </div>
+        </div>
+
+        <a href="#booking" class="btn-primary"
+          >Hubungi Kami
+          <i class="fas fa-arrow-right" style="margin-left: 10px"></i
+        ></a>
+      </div>
+      <div class="hero-image">
+        <img src="img/profile.png" alt="Service Elektronik" />
+      </div>
+    </section>
+
+    <!-- BANNER URGENSI (BARU) -->
+    <div style="padding: 0 5%">
+      <div class="urgency-banner">
+        <div class="urgency-text">
+          <h3>
+            <i class="fas fa-bolt"></i> Slot Teknisi Hari Ini Hampir Penuh!
+          </h3>
+          <p>
+            Booking sekarang sebelum jadwal penuh. Respon cepat & bisa
+            pengerjaan hari ini juga.
+          </p>
+        </div>
+        <a href="#booking" class="btn-urgency"
+          ><i class="fas fa-comment-dots"></i> Booking Sekarang</a
+        >
+      </div>
+    </div>
+
+    <!-- STATISTIK -->
+    <div class="stats">
+      <div class="stat-item">
+        <h3>1500+</h3>
+        <p>Pelanggan Setia</p>
+      </div>
+      <div class="stat-item">
+        <h3>10+</h3>
+        <p>Tahun Pengalaman</p>
+      </div>
+      <div class="stat-item">
+        <h3>25+</h3>
+        <p>Teknisi Ahli</p>
+      </div>
+      <div class="stat-item">
+        <h3>100%</h3>
+        <p>Garansi Layanan</p>
+      </div>
+    </div>
+
+    <!-- TENTANG KAMI -->
+    <section id="about">
+      <h2 class="section-title">Tentang Kami</h2>
+      <div class="about-section">
+        <div class="about-image">
+          <img src="img/tentangkami.png" alt="Tim Teknisi" />
+        </div>
+        <div class="about-text">
+          <h3
+            style="
+              color: var(--neon-cyan);
+              font-size: 1.8rem;
+              margin-bottom: 15px;
+            "
+          >
+            Dedikasi Untuk Kenyamanan Anda
+          </h3>
+          <p>
+            <b>SERVICE AJA</b> adalah penyedia layanan perbaikan dan
+            pemeliharaan alat elektronik terpercaya yang telah beroperasi selama
+            lebih dari 10 tahun.
+          </p>
+          <p>
+            Kami berspesialisasi dalam perbaikan Chiller, AC, Mesin Cuci,
+            Kulkas, Water Heater, dan peralatan rumah tangga lainnya. Dengan tim
+            teknisi yang bersertifikat, kami menjamin masalah elektronik Anda
+            diselesaikan dengan cepat dan tepat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAYANAN KAMI (SLIDER/CAROUSEL) -->
+    <section id="services">
+      <h2 class="section-title">Layanan Kami</h2>
+      <p
+        style="
+          text-align: center;
+          color: var(--text-muted);
+          margin-bottom: 30px;
+        "
+      >
+        Geser untuk melihat layanan yang kami sediakan.
+      </p>
+
+      <div class="carousel-container">
+        <div class="carousel-card">
+          <img src="img/ac.png" alt="Service AC" />
+          <!-- <div class="card-body"><h3>Service AC</h3></div> -->
+        </div>
+        <div class="carousel-card">
+          <img src="img/kulkas.png" alt="Service Kulkas" />
+          <!-- <div class="card-body"><h3>Service Kulkas</h3></div> -->
+        </div>
+        <!-- Highlight Chiller -->
+        <div class="carousel-card highlight">
+          <img src="img/chiller.png" alt="Service Chiller" />
+          <!-- <div class="card-body highlight-text"><h3>Service Chiller</h3></div> -->
+        </div>
+        <div class="carousel-card">
+          <img src="img/mesincuci.png" alt="Mesin Cuci" />
+          <!-- <div class="card-body"><h3>Service Mesin Cuci</h3></div> -->
+        </div>
+        <div class="carousel-card">
+          <img src="img/dispenser.png" alt="Dispenser" />
+          <!-- <div class="card-body"><h3>Service Dispenser</h3></div> -->
+        </div>
+        <div class="carousel-card">
+          <img src="img/kompor.png" alt="Kompor" />
+          <!-- <div class="card-body"><h3>Service Kompor</h3></div> -->
+        </div>
+        <div class="carousel-card">
+          <img src="img/microwave.png" alt="Microwave" />
+          <!-- <div class="card-body"><h3>Service Microwave</h3></div> -->
+        </div>
+        <div class="carousel-card">
+          <img src="img/pompaair.png" alt="Pompa Air" />
+          <!-- <div class="card-body"><h3>Service Pompa Air</h3></div> -->
+        </div>
+        <div class="carousel-card">
+          <img src="img/pengeboran.png" alt="Pengeboran Sumur" />
+          <!-- <div class="card-body"><h3>Layanan Pengeboran Sumur</h3></div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- DAFTAR HARGA (ACCORDION) -->
+    <section id="pricing">
+      <h2 class="section-title">Daftar Harga Estimasi</h2>
+      <div class="accordion-container">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>Service Chiller Industri</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>
+                Layanan meliputi pengecekan kompresor, pembersihan kondensor,
+                isi ulang freon, dan perbaikan modul kontrol.
+              </p>
+              <span class="price-tag">Mulai dari Rp 450.000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>Cuci & Service AC (Split/Cassette)</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>
+                Cuci AC rutin, penambahan freon R32/R410, perbaikan bocor air,
+                dan penggantian kapasitor.
+              </p>
+              <span class="price-tag">Mulai dari Rp 75.000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>Service Dispenser</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>Cuci tabung, ganti pompa dan selang, service sensor.</p>
+              <span class="price-tag">Mulai dari Rp 150.000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>Service AC Pompa Air </span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>Ganti kapasitor, ganti bring, cuci torn.</p>
+              <span class="price-tag">Mulai dari Rp 100.000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>Service Mesin Cuci</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>
+                Perbaikan mesin mati total, ganti inet, ganti dren, cuci tabung,
+                ganti sensor air.
+              </p>
+              <span class="price-tag">Mulai dari Rp 250.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERI PELAYANAN -->
+    <section id="gallery">
+      <h2 class="section-title">Galeri Pekerjaan Kami</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/serviceac1.jpeg" alt="Service AC" />
+          <div class="gallery-overlay"><h4>Service AC</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/serviceac2.jpeg" alt="Service AC" />
+          <div class="gallery-overlay"><h4>Service AC</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/serviceac3.jpeg" alt="Service AC" />
+          <div class="gallery-overlay"><h4>Service AC</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img
+            src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=600&auto=format&fit=crop"
+            alt="Perawatan Chiller"
+          />
+          <div class="gallery-overlay"><h4>Perawatan Chiller Industri</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/servicekulkas1.jpeg" alt="Perbaikan Kulkas" />
+          <div class="gallery-overlay"><h4>Perbaikan Kulkas</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/servicekulkas2.jpeg" alt="Perbaikan Kulkas" />
+          <div class="gallery-overlay"><h4>Perbaikan Kulkas</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/servicekulkas3.jpeg" alt="Perbaikan Kulkas" />
+          <div class="gallery-overlay"><h4>Perbaikan Kulkas</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/servicemesincuci1.jpeg" alt="Service Mesin Cuci" />
+          <div class="gallery-overlay"><h4>Service Mesin Cuci</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/servicemesincuci2.jpeg" alt="Service Mesin Cuci" />
+          <div class="gallery-overlay"><h4>Service Mesin Cuci</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/servicemesincuci3.jpeg" alt="Service Mesin Cuci" />
+          <div class="gallery-overlay"><h4>Service Mesin Cuci</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/servicedispenser1.jpeg" alt="Service Dispenser" />
+          <div class="gallery-overlay"><h4>Service Dispenser</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/servicepompaair.jpeg" alt="Service Pompa Air" />
+          <div class="gallery-overlay"><h4>Service Pompa Air</h4></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="img/servicekompor1.jpeg" alt="Service Kompor" />
+          <div class="gallery-overlay"><h4>Service Kompor</h4></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ULASAN PELANGGAN -->
+    <section id="reviews">
+      <h2 class="section-title">Ulasan Pelanggan</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">
+            "Teknisi sangat profesional. Chiller di restoran saya rusak dan
+            mereka datang di hari yang sama. Sekarang dinginnya kembali normal!"
+          </p>
+          <div class="customer-info">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100"
+              class="customer-avatar"
+              alt="Budi"
+            />
+            <div class="customer-name">
+              <h4>Budi Santoso</h4>
+              <p>Pemilik Restoran</p>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">
+            "Pengerjaan rapi dan cepat. AC rumah yang bocor langsung beres dan
+            harganya transparan sesuai dengan yang dijelaskan di awal."
+          </p>
+          <div class="customer-info">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100"
+              class="customer-avatar"
+              alt="Siti"
+            />
+            <div class="customer-name">
+              <h4>Siti Aminah</h4>
+              <p>Ibu Rumah Tangga</p>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★☆</div>
+          <p class="review-text">
+            "Pelayanan admin ramah, booking jadwal sangat mudah. Teknisi mesin
+            cuci datang tepat waktu dan memberikan garansi servis 1 bulan."
+          </p>
+          <div class="customer-info">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100"
+              class="customer-avatar"
+              alt="Reza"
+            />
+            <div class="customer-name">
+              <h4>Reza Pahlevi</h4>
+              <p>Pekerja Swasta</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ / PERTANYAAN (BARU) -->
+    <section id="faq">
+      <h2 class="section-title">FAQ</h2>
+      <p
+        style="
+          text-align: center;
+          color: var(--text-muted);
+          margin-bottom: 30px;
+        "
+      >
+        Pertanyaan yang Sering Diajukan
+      </p>
+      <div class="accordion-container">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>Apakah bisa datang pengerjaan hari ini?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>
+                Bisa! Kami memiliki sistem respon cepat. Jika slot teknisi masih
+                tersedia, kami usahakan untuk langsung datang ke lokasi Anda di
+                hari yang sama.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>Apakah ada garansi setelah perbaikan?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>
+                Tentu saja. Kami memberikan garansi service hingga 30 hari untuk
+                kerusakan yang sama paska perbaikan, dan garansi khusus untuk
+                penggantian sparepart sesuai ketentuan pabrik.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span
+              >Apakah perbaikan dilakukan langsung di lokasi atau barang harus
+              dibawa ke bengkel?</span
+            >
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>
+                Sebagian besar perbaikan (sekitar 90%) seperti servis AC,
+                kulkas, dan mesin cuci dapat diselesaikan langsung di tempat
+                Anda (rumah/kantor). Namun, untuk kerusakan berat yang
+                membutuhkan alat berat atau proses overhaul, unit mungkin perlu
+                kami bawa ke bengkel dengan persetujuan Anda terlebih dahulu.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span
+              >Bagaimana jika setelah teknisi mengecek, biayanya menurut saya
+              terlalu mahal dan saya tidak jadi servis?</span
+            >
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>
+                Teknisi kami selalu menginformasikan estimasi total biaya
+                perbaikan sebelum mulai membongkar atau mengganti alat. Jika
+                Anda memutuskan untuk membatalkan servis, Anda hanya akan
+                dikenakan biaya pengecekan dan transportasi (Mulai Dari Rp
+                75.000, tergantung jarak lokasi)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span
+              >Apakah bisa menjadwalkan servis untuk hari libur atau akhir
+              pekan?</span
+            >
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>
+                Kami beroperasi setiap hari Senin hingga Minggu, termasuk hari
+                libur nasional (kecuali hari raya besar). Sangat disarankan
+                untuk booking slot 1 hari sebelumnya jika Anda ingin servis di
+                akhir pekan karena jadwal biasanya cepat penuh.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>Area mana saja yang di-cover?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <p>
+                Saat ini layanan teknisi panggilan kami mengcover seluruh Area
+                Tanggerang Selatan, Depok Jakarta Selatan Tanggerang Untuk area
+                di luar itu, silakan hubungi admin kami.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM PEMESANAN -->
+    <section id="booking">
+      <h2 class="section-title">Form Pemesanan</h2>
+      <div class="booking-container">
+        <form onsubmit="sendToWhatsApp(event)">
+          <div class="form-group">
+            <label>Nama Lengkap</label>
+            <input
+              type="text"
+              id="waName"
+              class="form-control"
+              placeholder="Masukkan nama Anda"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label>Nomor WhatsApp</label>
+            <input
+              type="tel"
+              id="waPhone"
+              class="form-control"
+              placeholder="Contoh: 08123456789"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label>Jenis Layanan</label>
+            <select
+              id="waService"
+              class="form-control"
+              required
+              style="background-color: #0a1930"
+            >
+              <option value="">-- Pilih Layanan --</option>
+              <option value="Service Chiller">Service Chiller</option>
+              <option value="Service AC">Service AC</option>
+              <option value="Service Kulkas">Service Kulkas</option>
+              <option value="Service Mesin Cuci">Service Mesin Cuci</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Alamat Lengkap</label>
+            <textarea
+              id="waAddress"
+              class="form-control"
+              placeholder="Alamat lengkap untuk kunjungan"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label>Detail Keluhan</label>
+            <textarea
+              id="waComplaint"
+              class="form-control"
+              placeholder="Ceritakan masalah/kerusakan alat elektronik Anda..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-submit">
+            <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- MAPS LOKASI (BARU) -->
+    <section id="location">
+      <h2 class="section-title">Lokasi Kami</h2>
+      <div class="map-wrapper">
+        <!-- Iframe Google Maps (Diberi efek filter agar agak gelap menyesuaikan tema) -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126920.24009653775!2d106.7588326!3d-6.2297465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x100c5e82dd4b820!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2026 SERVICE AJA. All Rights Reserved.</p>
+    </footer>
+
+    <!-- TOMBOL WHATSAPP MELAYANG -->
+    <a
+      href="https://wa.me/6282112111124?text=Halo%20SERVICE%20AJA,%20saya%20ingin%20memesan%20layanan..."
+      class="float-wa"
+      title="Hubungi via WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- === JAVASCRIPT === -->
+    <script>
+      // 1. HAMBURGER MENU LOGIC
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+
+      // Menutup menu jika link diklik (untuk mobile)
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+        });
+      });
+
+      // WhatsApp Form Submit Logika
+      function sendToWhatsApp(e) {
+        e.preventDefault(); // Mencegah reload halaman
+
+        // Mengambil nilai dari form
+        const name = document.getElementById("waName").value;
+        const phone = document.getElementById("waPhone").value;
+        const service = document.getElementById("waService").value;
+        const address = document.getElementById("waAddress").value;
+        const complaint = document.getElementById("waComplaint").value;
+
+        // Menyusun format pesan WhatsApp
+        const textMessage =
+          `Halo *SERVICE AJA*, saya ingin memesan layanan servis:\n\n` +
+          `*Nama:* ${name}\n` +
+          `*No. WA:* ${phone}\n` +
+          `*Layanan:* ${service}\n` +
+          `*Alamat:* ${address}\n` +
+          `*Keluhan:* ${complaint}\n\n` +
+          `Mohon informasi ketersediaan teknisi. Terima kasih.`;
+
+        // Encode teks agar aman digunakan di URL
+        const encodedText = encodeURIComponent(textMessage);
+
+        // Nomor WhatsApp tujuan (Pastikan menggunakan kode negara 62)
+        const waNumber = "6282112111124"; // Ganti dengan nomor WhatsApp Anda
+        const waURL = `https://wa.me/${waNumber}?text=${encodedText}`;
+
+        // Buka tab baru menuju WhatsApp
+        window.open(waURL, "_blank");
+      }
+      // 2. ACCORDION LOGIC (UNTUK DAFTAR HARGA & FAQ)
+      const accordions = document.querySelectorAll(".accordion-header");
+
+      accordions.forEach((acc) => {
+        acc.addEventListener("click", function () {
+          // Toggle class active pada header yang diklik
+          this.classList.toggle("active");
+
+          // Ambil elemen body dibawahnya
+          const body = this.nextElementSibling;
+
+          // Atur maxHeight untuk animasi
+          if (body.style.maxHeight) {
+            body.style.maxHeight = null;
+          } else {
+            body.style.maxHeight = body.scrollHeight + "px";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
